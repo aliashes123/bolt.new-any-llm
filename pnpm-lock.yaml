@@ -11,6 +11,10 @@ importers:
 
   .:
     dependencies:
+    
+          '@remix-run/node':
+        specifier: ^1.0.0
+        version: 1.0.0(zod@3.23.8)
       '@ai-sdk/anthropic':
         specifier: ^0.0.39
         version: 0.0.39(zod@3.23.8)
